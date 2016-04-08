@@ -3,6 +3,16 @@ body {
  color: #ddd;
  font-family: 'Amatic SC', cursive;
 }
+
 h1.title {
  font-size: 4em;
+}
+
+a {
+ color: #343759;
+}
+
+.play .title {
+}
+.play .cast {
 }
