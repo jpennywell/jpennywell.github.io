@@ -1,18 +1,168 @@
 body {
- background: #333;
- color: #ddd;
- font-family: 'Amatic SC', cursive;
+	background: url(images/blackmamba.png);
+	color: #ccc;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h1.title {
- font-size: 4em;
+ul {
+	list-style: none;
+}
+ul li {
+	margin: 10px 0;
 }
 
 a {
- color: #343759;
+	color: #fafa00;
+	text-decoration: none;
+}
+a:hover {
+	color: #fafa00;
+	text-decoration: none;
+	border-bottom: solid 1px #fafa00;
+}
+a.subtle {
+	color: #ddd;
+	border-bottom: dotted 1px #fafa00;
+}
+a.subtle:hover {
+	color: #fafa00;
+	text-decoration: none;
+	border-bottom-style: solid;
+}
+a.download::before {
+	font-family: "FontAwesome";
+	content: "\f016";
+	padding-right: 5px;
+}
+a.tickets::before {
+	font-family: "FontAwesome";
+	content: "\f145";
+	padding-right: 5px;
+}
+a.ext::before {
+	font-family: "FontAwesome";
+	content: "\f08e";
+	padding-right: 5px;
 }
 
+div#contact {
+	text-align: center;
+	font-size: 1.1em;
+}
+div#contact a {
+	margin: 0 10px;
+}
+@media (min-width: 750px) {
+	div#contact {
+		text-align: right;
+		font-size: 1.7em;
+	}
+}
+
+header {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+header div.title {
+    font-size: 7em;
+}
+header div.line-one,
+header div.line-two {
+	margin-top: 30px;
+	font-size: 1.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+header div.line-two {
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+header div.defn {
+	font-style: italic;
+	font-size: 2em;
+	color: #fafa00;
+}
+
+
+header a {
+	font-size: 2.2em;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px 20px;
+}
+
+section {
+	text-align: center;
+}
+section h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+section#aboutus {
+	background: #223;
+	font-size: 1.7em;
+	padding: 30px 0;
+}
+section#shows {
+}
+
+.play {
+	margin: 50px 0;
+}
+
+.play .poster-cell {
+	padding-top: 2em;
+	text-align: center;
+}
+
+.play img.poster {
+	width: 300px;
+	height: auto;
+	padding: 3px;
+	border-width: 8px;
+	border-style: double;
+	border-color: #444;
+	background: #000;
+}
 .play .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+}
+.play div {
+	margin: 0 0 15px 0;
+	text-align: left;
 }
 .play .cast {
+}
+.play .cast::before {
+	font-weight: 700;
+	content: "Starring: ";
+}
+.play .subline {
+}
+.play .date {
+}
+.play .date::before {
+	font-family: "FontAwesome";
+	content: "\f073";
+}
+.play .venue {
+}
+.play .venue::before {
+	font-family: "FontAwesome";
+	content: "\f124";
+}
+.play .desc {
+	font-style: italic;
+}
+.play .links {
+}
+
+footer {
+	padding: 100px 0 30px 0;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	color: #777;
 }
