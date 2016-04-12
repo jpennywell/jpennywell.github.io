@@ -384,23 +384,11 @@
   "css": [
     "type.less",
     "grid.less",
-    "tables.less",
-    "forms.less",
     "responsive-utilities.less",
-    "navs.less",
-    "navbar.less",
-    "breadcrumbs.less",
-    "labels.less",
-    "badges.less",
-    "jumbotron.less",
     "thumbnails.less",
     "media.less",
-    "list-group.less",
-    "panels.less",
-    "responsive-embed.less",
-    "wells.less",
-    "close.less"
+    "responsive-embed.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=85fbe8a9488ceaf6555b2575ade835ea"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=2e982690570535e295ddcdc209c3ac44"
 }
