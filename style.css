@@ -4,7 +4,6 @@ body {
 	font-size: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-
 ul {
 	list-style: none;
 	padding-left: 0;
@@ -134,22 +133,18 @@ section#shows {
 	margin: 0 0 15px 0;
 	text-align: left;
 }
-.play .cast {
-}
+.play .cast {}
 .play .cast::before {
 	font-weight: 700;
 	content: "Starring: ";
 }
-.play .subline {
-}
-.play .date {
-}
+.play .subline {}
+.play .date {}
 .play .date::before {
 	font-family: "FontAwesome";
 	content: "\f073";
 }
-.play .venue {
-}
+.play .venue {}
 .play .venue::before {
 	font-family: "FontAwesome";
 	content: "\f124";
@@ -157,8 +152,7 @@ section#shows {
 .play .desc {
 	font-style: italic;
 }
-.play .links {
-}
+.play .links {}
 
 footer {
 	padding: 100px 0 30px 0;
