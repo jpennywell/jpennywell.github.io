@@ -204,3 +204,21 @@ footer {
 	float: left;
 }
 }
+
+
+.box {
+	border: solid 2px #666;
+	padding: 10px;
+	margin: 40px 20px;
+}
+.box h1 {
+	margin-top: 0;
+}
+
+.align-left {
+	text-align: left;
+}
+
+ul.extra-space li {
+	margin: 25px 0;
+}
