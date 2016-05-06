@@ -151,7 +151,7 @@ section#shows {
 	content: "\f124";
 }
 .play .desc {
-	font-style: italic;
+	/*font-style: italic;*/
 }
 .play .links {}
 
@@ -221,4 +221,12 @@ footer {
 
 ul.extra-space li {
 	margin: 25px 0;
+}
+
+.start {
+	font-family: 'Press Start 2P', cursive;
+	color: red;
+}
+.start span {
+	color: white;
 }
