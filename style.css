@@ -78,6 +78,9 @@ header div.line-two {
 	font-weight: 700;
 	margin-bottom: 50px;
 }
+header div.line-two a {
+	text-decoration: underline;
+}
 header div.defn {
 	font-style: italic;
 	font-size: 2em;
