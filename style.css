@@ -57,7 +57,7 @@ div#contact a {
 @media (min-width: 768px) {
 	div#contact {
 		text-align: right;
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 }
 
@@ -143,15 +143,16 @@ section#shows {
 	content: "Starring: ";
 }
 .play .subline {}
-.play .date {}
 .play .date::before {
 	font-family: "FontAwesome";
 	content: "\f073";
+	padding-right: 10px;
 }
 .play .venue {}
 .play .venue::before {
 	font-family: "FontAwesome";
 	content: "\f124";
+	padding-right: 10px;
 }
 .play .desc {
 	/*font-style: italic;*/
