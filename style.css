@@ -239,4 +239,6 @@ div.audition-notice {
 	margin: 20px 0;
 	font-size: 2em;
 	text-align: center;
+	border: solid 2px #fafa00;
+	padding: 30px;
 }
