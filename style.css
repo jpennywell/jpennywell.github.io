@@ -234,3 +234,8 @@ ul.extra-space li {
 .start span {
 	color: white;
 }
+
+div.audition-notice {
+	margin: 20px 0;
+	font-size: 1.5em;
+}
